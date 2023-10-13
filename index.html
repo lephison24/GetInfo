@@ -199,57 +199,57 @@ margin-right: 10%;
     
         <div class="label-input-container">
             <label for="englishCompanyName">End user Company Name* (English name):</label>
-            <input type="text" id="englishCompanyName" name="englishCompanyName" required>
+            <input type="text" id="englishCompanyName" name="englishCompanyName" placeholder=" Company Name(English name)" required>
         </div>
         
         <div class="label-input-container">
             <label for="vietnameseCompanyName">End user Company Name* (Vietnamese):</label>
-            <input type="text" id="vietnameseCompanyName" name="vietnameseCompanyName" required>
+            <input type="text" id="vietnameseCompanyName" placeholder=" Company Name(Vietnamese name)" name="vietnameseCompanyName" required>
         </div>
         
         <div class="label-input-container">
             <label for="companyAddress">Company Address*:</label>
-            <input type="text" id="companyAddress" name="companyAddress" required>
+            <input type="text" id="companyAddress" placeholder=" Company Address" name="companyAddress" required>
         </div>
         
         <div class="label-input-container">
             <label for="estimatedClosureMonth">Estimated Closure Month*:</label>
-            <input type="month" id="estimatedClosureMonth" name="estimatedClosureMonth" required>
+            <input type="month" id="estimatedClosureMonth"  placeholder="Estimated Closure Month" name="estimatedClosureMonth" required>
         </div>
         
         <div class="label-input-container">
             <label for="projectName">Project Name*:</label>
-            <input type="text" id="projectName" name="projectName" required>
+            <input type="text" id="projectName" placeholder="Project Name" name="projectName" required>
         </div>
         
         <div class="label-input-container">
             <label for="qty">Qty*:</label>
-            <input type="number" id="qty" name="qty" required>
+            <input type="number" id="qty" placeholder="Qty"  name="qty" required>
         </div>
         
         <div class="label-input-container">
             <label for="sku">SKU/ Product/ Description*:</label>
-            <textarea style="border-radius: 10px;height: 100px;" id="sku" name="sku" required></textarea>
+            <textarea style="border-radius: 10px;height: 100px;"placeholder="Qty"  id="SKU/ Product/ Description" name="sku" required></textarea>
         </div>
         
         <div class="label-input-container">
             <label for="endUserName">End User Name:</label>
-            <input type="text" id="endUserName" name="endUserName">
+            <input type="text" id="endUserName" placeholder="End User Name"  name="endUserName">
         </div>
         
         <div class="label-input-container">
             <label for="endUserPhone">End User Phone:</label>
-            <input type="tel" id="endUserPhone" name="endUserPhone">
+            <input type="tel" id="endUserPhone" placeholder="End User Phone" name="endUserPhone">
         </div>
         
         <div class="label-input-container">
             <label for="endUserEmail">End User Email*:</label>
-            <input type="email" id="endUserEmail" name="endUserEmail" required>
+            <input type="email" id="endUserEmail" placeholder="End User Email" name="endUserEmail" required>
         </div>
         
         <div class="label-input-container">
             <label for="endUserWebsite">End User Website:</label>
-            <input type="url" id="endUserWebsite" name="endUserWebsite">
+            <input type="url" id="endUserWebsite" placeholder="End User Website" name="endUserWebsite">
         </div>
         
         <button id="addButton">+</button>
@@ -310,7 +310,7 @@ margin-right: 10%;
 </div>
     </div>
     <script>
-        alert("HELLO BỐ GIÀ :D")
+      
         function updateClock() {
     const currentTime = new Date();
     const hours = currentTime.getHours().toString().padStart(2, '0');
